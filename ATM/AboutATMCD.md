@@ -1,0 +1,3 @@
+ATM_CD is a simulation of an ATM developed in C++ using the concept of constructor and destructor. This simulation can perform operations such as deposit, withdrawl, balance enquiry and change PIN. 
+Here, two types of constructors are used, default constructor and parameterized constructor. Default constructor is used to set default value for some data members of the ATM class and parameterized constructor is used to set customer information such as account number, balance, card number and PIN. 
+Parameterized constructors allow us to create objects for each customer, here I have create for two. The customer is identified using the card number and the object for that customer is used to perform transactions.
