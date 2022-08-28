@@ -75,13 +75,13 @@ class Game{
             points = 10;
         }
         else if(10 >= actualNoOfGuess && actualNoOfGuess >= 8){
-            points = 8;
+            points = 4;
         }
         else if(8 > actualNoOfGuess && actualNoOfGuess >= 5){
             points = 6;
         }
         else if(5 > actualNoOfGuess && actualNoOfGuess >= 2){
-            points = 4;
+            points = 8;
         }
         System.out.println("Your score is "+points);
     }
